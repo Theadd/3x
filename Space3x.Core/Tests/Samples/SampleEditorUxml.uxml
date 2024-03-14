@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Space3x/Space3x.Core/Editor/Attributes/VisualElements/USSEditorDrawers.uss?fileID=7433441132597879392&amp;guid=03bdcd3ce9e31a144930979a44c0b2fd&amp;type=3#USSEditorDrawers" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <uie:PropertyField />
+        <Space3x.Core.Editor.Attributes.VisualElements.DetachedDecorators />
+        <uie:PropertyField>
+            <ui:VisualElement class="unity-decorator-drawers-container" style="flex-grow: 1;" />
+            <ui:SliderInt label="SliderInt" value="42" high-value="100" />
+        </uie:PropertyField>
+        <uie:PropertyField>
+            <ui:VisualElement class="unity-decorator-drawers-container" style="flex-grow: 1;" />
+            <ui:TextField label="Text Field" placeholder-text="filler text" />
+        </uie:PropertyField>
+        <Space3x.Core.Editor.Attributes.VisualElements.PropertyGroupField>
+            <Space3x.Core.Editor.Attributes.VisualElements.GroupMarkerDecorator />
+            <Space3x.Core.Editor.Attributes.VisualElements.DetachedDecorators />
+            <uie:PropertyField>
+                <ui:VisualElement class="unity-decorator-drawers-container" style="flex-grow: 1;" />
+                <ui:TextField label="Text Field" placeholder-text="filler text" />
+            </uie:PropertyField>
+            <Space3x.Core.Editor.Attributes.VisualElements.AutoDecorator />
+            <uie:ObjectField label="Object Field" />
+            <Space3x.Core.Editor.Attributes.VisualElements.GroupMarkerDecorator />
+        </Space3x.Core.Editor.Attributes.VisualElements.PropertyGroupField>
+        <Space3x.Core.Editor.Attributes.VisualElements.DetachedDecorators />
+    </ui:VisualElement>
+</ui:UXML>

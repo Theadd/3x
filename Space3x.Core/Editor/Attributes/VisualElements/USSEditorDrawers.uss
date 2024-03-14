@@ -1,0 +1,10 @@
+TabView .unity-tab:hover ProgressBar {
+    opacity: 0.74;
+}
+
+.TabView .unity-tab ProgressBar {
+    opacity: 0.29;
+}
+
+.unity-decorator-drawers-container {
+}
